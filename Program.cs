@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+namespace tpmodul7_kelompok_4;
 
-Console.WriteLine("Hello, World!");
+class Program
+{
+    static void Main(string[] args)
+    {
+        DataMahasiswa21104009 dataMahasiswa = new DataMahasiswa21104009();
+        dataMahasiswa.ReadJSON();
+        
+        KuliahMahasiswa21104009 kuliahMahasiswa = new KuliahMahasiswa21104009();
+        kuliahMahasiswa.ReadJSON();
+    }
+}
