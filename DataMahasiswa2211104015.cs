@@ -30,11 +30,3 @@ public class DataMahasiswa
         }
     }
 }
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        DataMahasiswa.ReadJSON();
-    }
-}
