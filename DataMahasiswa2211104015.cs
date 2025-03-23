@@ -26,34 +26,34 @@ public class Person
     public List<Course> Courses { get; set; }
 }
 
-public class Program
-{
-    public static void ReadJSON()
-    {
-        string path = @"E:\Data ITTP\Perkuliahan\Semester 6\KPL\Praktikum\Praktikum5\tpmodul7_kelompok_4\jurnal7_1_2211104015.json";
-        if (File.Exists(path))
-        {
-            string jsonData = File.ReadAllText(path);
-            var person = JsonConvert.DeserializeObject<Person>(jsonData);
+//public class Program
+//{
+//    public static void ReadJSON()
+//    {
+//        string path = @"E:\Data ITTP\Perkuliahan\Semester 6\KPL\Praktikum\Praktikum5\tpmodul7_kelompok_4\jurnal7_1_2211104015.json";
+//        if (File.Exists(path))
+//        {
+//            string jsonData = File.ReadAllText(path);
+//            var person = JsonConvert.DeserializeObject<Person>(jsonData);
 
-            Console.WriteLine($"Name: {person.FirstName} {person.LastName}");
-            Console.WriteLine($"Gender: {person.Gender}");
-            Console.WriteLine($"Age: {person.Age}");
-            Console.WriteLine($"Address: {person.Address.StreetAddress}, {person.Address.City}, {person.Address.State}");
-            Console.WriteLine("Courses:");
-            foreach (var course in person.Courses)
-            {
-                Console.WriteLine($"  - {course.Code}: {course.Name}");
-            }
-        }
-        else
-        {
-            Console.WriteLine("File JSON tidak ditemukan!");
-        }
-    }
+//            Console.WriteLine($"Name: {person.FirstName} {person.LastName}");
+//            Console.WriteLine($"Gender: {person.Gender}");
+//            Console.WriteLine($"Age: {person.Age}");
+//            Console.WriteLine($"Address: {person.Address.StreetAddress}, {person.Address.City}, {person.Address.State}");
+//            Console.WriteLine("Courses:");
+//            foreach (var course in person.Courses)
+//            {
+//                Console.WriteLine($"  - {course.Code}: {course.Name}");
+//            }
+//        }
+//        else
+//        {
+//            Console.WriteLine("File JSON tidak ditemukan!");
+//        }
+//    }
 
-    public static void Main()
-    {
-        ReadJSON();
-    }
-}
+//    public static void Main()
+//    {
+//        ReadJSON();
+//    }
+//}
