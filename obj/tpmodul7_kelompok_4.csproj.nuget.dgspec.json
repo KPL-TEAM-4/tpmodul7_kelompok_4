@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/doanta/Documents/Dev/KPL/tpmodul7_kelompok_4/tpmodul7_kelompok_4.csproj": {}
+    "E:\\Data ITTP\\Perkuliahan\\Semester 6\\KPL\\Praktikum\\Praktikum5\\tpmodul7_kelompok_4\\tpmodul7_kelompok_4.csproj": {}
   },
   "projects": {
-    "/Users/doanta/Documents/Dev/KPL/tpmodul7_kelompok_4/tpmodul7_kelompok_4.csproj": {
+    "E:\\Data ITTP\\Perkuliahan\\Semester 6\\KPL\\Praktikum\\Praktikum5\\tpmodul7_kelompok_4\\tpmodul7_kelompok_4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/doanta/Documents/Dev/KPL/tpmodul7_kelompok_4/tpmodul7_kelompok_4.csproj",
+        "projectUniqueName": "E:\\Data ITTP\\Perkuliahan\\Semester 6\\KPL\\Praktikum\\Praktikum5\\tpmodul7_kelompok_4\\tpmodul7_kelompok_4.csproj",
         "projectName": "tpmodul7_kelompok_4",
-        "projectPath": "/Users/doanta/Documents/Dev/KPL/tpmodul7_kelompok_4/tpmodul7_kelompok_4.csproj",
-        "packagesPath": "/Users/doanta/.nuget/packages/",
-        "outputPath": "/Users/doanta/Documents/Dev/KPL/tpmodul7_kelompok_4/obj/",
+        "projectPath": "E:\\Data ITTP\\Perkuliahan\\Semester 6\\KPL\\Praktikum\\Praktikum5\\tpmodul7_kelompok_4\\tpmodul7_kelompok_4.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Data ITTP\\Perkuliahan\\Semester 6\\KPL\\Praktikum\\Praktikum5\\tpmodul7_kelompok_4\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/doanta/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +44,17 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
